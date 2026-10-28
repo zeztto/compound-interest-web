@@ -1,5 +1,10 @@
 # Changelog
 
+## 라이선스 고지 보강 — 2026-10-28
+
+- 배포 CSS에 포함되는 Tailwind 4.1.12의 MIT 원문을 고지에 추가했습니다.
+- 정적 bundle 재배포 시 LICENSE와 원고지를 동봉하는 범위를 문서화했습니다.
+
 ## 1.0.0 — 2026-10-28
 
 - 실행 가능한 공개 source edition과 npm lockfile·최소 권한 CI를 준비했습니다.

@@ -19,7 +19,7 @@ npm run build
 npm run preview
 ```
 
-`dist/`는 도메인 root의 HTTPS 정적 hosting에 배포할 수 있습니다. Vite dev/preview는 로컬 확인용입니다. lockfile과 CI action commit SHA를 고정했으며 CI는 Node 22·Ubuntu에서 위 검사와 build/audit를 수행하도록 구성했습니다. source 준비 단계에서 원격 CI·공개 배포 실행은 별도입니다.
+`dist/`는 도메인 root의 HTTPS 정적 hosting에 배포할 수 있습니다. 정적 bundle을 재배포할 때 저장소의 `LICENSE`와 `THIRD_PARTY_NOTICES.md`를 함께 동봉하세요. 현재 build는 고지 문서를 자동 복사하지 않습니다. Vite dev/preview는 로컬 확인용입니다. lockfile과 CI action commit SHA를 고정했으며 CI는 Node 22·Ubuntu에서 위 검사와 build/audit를 수행하도록 구성했습니다. source 준비 단계에서 원격 CI·공개 배포 실행은 별도입니다.
 
 ## 계산 정책
 
@@ -40,4 +40,4 @@ npm run preview
 
 ## 라이선스
 
-First-party source는 MIT입니다. 기존 `ATTRIBUTIONS.md`를 보존했으며 실제 runtime package의 원래 license는 `THIRD_PARTY_NOTICES.md`에 있습니다. 이 edition에는 사진·외부 font·사용자 실적·운영 설정·이전 문서가 포함되지 않습니다.
+First-party source는 MIT입니다. 기존 `ATTRIBUTIONS.md`를 보존했으며 실제 runtime package와 배포 CSS에 포함되는 Tailwind 4.1.12의 원래 license는 `THIRD_PARTY_NOTICES.md`에 있습니다. 이 edition에는 사진·외부 font·사용자 실적·운영 설정·이전 문서가 포함되지 않습니다.
